@@ -20,7 +20,7 @@ const routes = createBrowserRouter([
       {
         path: "/singleMovie/:id",
         element: <SinglePage></SinglePage>,
-        loader: ({params}) => fetch(`https://api.themoviedb.org/3/movie/${params.id}?api_key=${import.meta.env.VITE_API_KEY}&language=en-US`)
+        loader: ({params}) => fetch(`https://api.themoviedb.org/3/movie/${params.id}?api_key=65bcfb33d2eb703f7bb3511a48700d6f&language=en-US`)
       },
     ],
   },
